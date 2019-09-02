@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChartsModule } from 'ng2-charts';
 import { FirstPageComponent } from './first-page/first-page.component';
+import { SecondPageComponent } from './second-page/second-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstPageComponent
+    FirstPageComponent,
+    SecondPageComponent
   ],
   imports: [
     BrowserModule,
