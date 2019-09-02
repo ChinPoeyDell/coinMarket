@@ -1,0 +1,12 @@
+.image {
+  width: 15px;
+  height: 15px;
+}
+
+.space {
+  padding-top: 10px;
+}
+
+.list {
+  list-style-type: none;
+}
