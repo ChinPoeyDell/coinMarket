@@ -6,10 +6,10 @@
           </div>
         </div>
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#"><h1>CoinMarket</h1></a>
+            <a class="navbar-brand" href="./"><h1>CoinMarket</h1></a>
             
             <a class="navbar-brand" href="#">Ranking</a>
-            <a class="navbar-brand" href="#">Tools</a>
+            <a class="navbar-brand" href="./second-page">Tools</a>
             <a class="navbar-brand" href="#">Resources</a>
             <a class="navbar-brand" href="#">Blog</a>  
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,151 @@
       </div>
 
   <div class="container">
-    test
+    <div style="text-align: center;">
+        <h3>Top 100 Cryptocurrencies by Market Capitalization</h3>
+    </div>
+
+    <div style="padding-top: 50px;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cryptocurrencies</a>
+                <div class="dropdown-menu">
+                    <span class="badge badge-pill badge-dark">All Cryptocurrencies</span>
+                    <a class="dropdown-item" href="#">Top 100</a>
+                    <a class="dropdown-item" href="#">Full List</a>
+                    <span class="badge badge-pill badge-dark">Coins Only</span>
+                    <a class="dropdown-item" href="#">Top 100</a>
+                    <a class="dropdown-item" href="#">Full List</a>
+                    <a class="dropdown-item" href="#">Market Cap by Circulating Supply</a>
+                    <a class="dropdown-item" href="#">Market Cap by Total Supply</a>
+                    <a class="dropdown-item" href="#">Filter Non-Mineable</a>
+                    <span class="badge badge-pill badge-dark">Tokens Only</span>
+                    <a class="dropdown-item" href="#">Top 100</a>
+                    <a class="dropdown-item" href="#">Full List</a>
+                    <a class="dropdown-item" href="#">Market Cap by Circulating Supply</a>
+                    <a class="dropdown-item" href="#">Market Cap by Total Supply</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Exchanges</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Top 100 By Adjusted Volume</a>
+                    <a class="dropdown-item" href="#">Top 100 By Reported Volume</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">WatchList</a>
+            </li>
+        </ul>
+        <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  USD
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">USD</a>
+                  <a class="dropdown-item" href="#">BTC</a>
+                  <a class="dropdown-item" href="#">ETH</a>
+                  <a class="dropdown-item" href="#">XRP</a>
+                  <a class="dropdown-item" href="#">BCH</a>
+                  <a class="dropdown-item" href="#">LTC</a>
+                </div>
+        </div>
+        <button type="button" class="btn btn-outline-primary">Next 100 -></button>
+        <button type="button" class="btn btn-outline-primary">View All</button>
+        </div>
+        </nav>
+    </div>
+
+    <div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Market Cap</th>
+                    <th scope="col">Volumn (24h)</th>
+                    <th scope="col">Circulating Supply</th>
+                    <th scope="col">Change (24h)</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>BitCoin</td>
+                    <td>$169,193,947,644</td>
+                    <td>$9,450.54</td>
+                    <td>$19,102,322,379</td>
+                    <td>17,903,100 BTC</td>
+                    <td>-7.10%</td>
+                    <td><div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                &#8594;
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Add to WatchList</a>
+                              <a class="dropdown-item" href="#">View Chart</a>
+                              <a class="dropdown-item" href="#">View Markets</a>
+                              <a class="dropdown-item" href="#">View Historical Data</a>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Ethereum</td>
+                    <td>$18,174,287,733</td>
+                    <td>$169.03</td>
+                    <td>$7,300,257,938</td>
+                    <td>107,518,127 ETH</td>
+                    <td>-9.50%</td>
+                    <td><div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                &#8594;
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Add to WatchList</a>
+                              <a class="dropdown-item" href="#">View Chart</a>
+                              <a class="dropdown-item" href="#">View Markets</a>
+                              <a class="dropdown-item" href="#">View Historical Data</a>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>XRP</td>
+                    <td>$10,805,153,457</td>
+                    <td>$0.251676</td>
+                    <td>$1,305,469,013</td>
+                    <td>42,932,866,967 XRP *</td>
+                    <td>-5.74%</td>
+                    <td><div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                &#8594;
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Add to WatchList</a>
+                              <a class="dropdown-item" href="#">View Chart</a>
+                              <a class="dropdown-item" href="#">View Markets</a>
+                              <a class="dropdown-item" href="#">View Historical Data</a>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="text-align: center;padding: top 50px;padding-bottom: 50px;">
+        <h4>Total Market Cap: $245,106,716,095</h4>
+        Last updated: Aug 29, 2019 8:04 AM UTC
+    </div>
 
     <div class="row">
         <div class="col-6 col-md-4"></div>
